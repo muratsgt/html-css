@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url(./images/background.jpg);
+    background-color: white;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#container{
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 30px 100px;
+}
+
+.box{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+#survey-form{
+    width: 500px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: auto;
+    padding-top: 10px;
+}
+
+#title{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: "Bowlby One SC", cursive;
+    letter-spacing: 5px;
+    padding-top: 15px;
+}
+
+#description{
+    text-align: center;
+    font-size: 130%;
+    font-family: "Sorts Mill Goudy", sans-serif;
+}
+
+#flix{
+    color: red;
+}
+
+#name,
+#age,
+#email,
+#content {
+    margin-top: 16px;
+    height: 36px;
+    width: 400px;
+    padding: 5px;
+}
+#content {
+    box-sizing: content-box;
+    resize: none;
+}
+#submit {
+    background-color:red;
+    font-size: larger;
+    height: 45px;
+    width: 160px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    margin: 16px 0px 16px 150px;
+}
+#submit:hover {
+    background: white;
+    color: red;
+    cursor: pointer;
+}
+
+#feedback{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+/* 
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("./images/Netflix_Background_Image.jpg");
+    color: white;
+}
+#container {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 30px 100px;
+}
+#title {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Bowlby One SC", cursive;
+    padding-top: 15px;
+    letter-spacing: 5px;
+}
+span {
+    color:#ff0000;
+}
+#description {
+    text-align: center;
+    font-size: 23px;
+    font-family: "Sorts Mill Goudy", sans-serif;
+    margin-bottom: 15px;
+}
+#survey-form {
+    width: 500px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding-top: 10px;
+}
+#name,
+#number,
+#email,
+#dropdown {
+    margin-top: 16px;
+    height: 36px;
+    width: 400px;
+    padding: 10px;
+}
+#dropdown {
+    box-sizing: content-box;
+    resize: none;
+}
+.box {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.text-area {
+    margin-top: 10px;
+}
+#submit {
+    background-color:red;
+    font-size: larger;
+    height: 45px;
+    width: 160px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    margin: 16px 0px 16px 150px;
+}
+#submit:hover {
+    background: white;
+    color: red;
+    cursor: pointer;
+} */
